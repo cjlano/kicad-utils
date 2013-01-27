@@ -437,11 +437,43 @@ class Pad( PcbObject ):
 		ofd.write( "$EndPAD\n" )
 
 
-class Drawsegment( PcbLineObject ):
+class Drawsegment( PcbObject ):
 
 	def __init__( self, line, words ):
-		PcbLineObject.__init__( self, "$DRAWSEGMENT", "$EndDRAWSEGMENT", False )
+		#PcbLineObject.__init__( self, "$DRAWSEGMENT", "$EndDRAWSEGMENT", False )
+		pass
 
+	def clone( self, transform=nulltransform ):
+		s = Drawsegment( None, None )
+		s.shape = self.shape
+		s.coord1 = transform.coord( self.coord1 )
+		s.coord2 = transform.coord( self.coord2 )
+		s.width = self.width
+		s.de = self.de
+		return s
+
+	def add_line( self, line, words ):
+		if words[0] == "$EndDRAWSEGMENT":
+			return True, True
+		elif words[0] == "Po":
+			self.shape = int(words[1])
+			self.coord1 = Coord( float(words[2]), float(words[3]) )
+			self.coord2 = Coord( float(words[4]), float(words[5]) )
+			self.width = float(words[6])
+		elif words[0] == "De":
+			self.de = line
+		return True, False
+
+	def write( self, ofd ):
+		ofd.write( "$DRAWSEGMENT\n" )
+		ofd.write( "Po %d %s %s %f\n" % ( self.shape,
+				self.coord1.to_str(), self.coord2.to_str(),
+				self.width ) )
+		ofd.write( "%s\n" % ( self.de ) )
+		ofd.write( "$EndDRAWSEGMENT\n" )
+
+	def inside( self, area ):
+		return area.inside( self.coord1 ) and area.inside( self.coord2 )
 
 class Drawsegments( PcbListObject ):
 
@@ -800,7 +832,7 @@ class Board( PcbObject ):
 		suffix = "_C%d" % self.transforms
 		trans = RotateTransform( self.sourcearea, cornername,
 				destination, angle, suffix, self )
-		copytypes = ( "module", "textpcb", "track", "czone_outline" )
+		copytypes = ( "module", "textpcb", "track", "czone_outline", "drawsegment" )
 		for typename in copytypes:
 			container = self.objs[self.typeindex[typename]]
 			add = []
