@@ -31,7 +31,7 @@ class Coord:
 		self.y = y
 
 	def to_str( self ):
-		return "%d %d" % ( self.x, self.y )
+		return "%f %f" % ( self.x, self.y )
 
 	def __add__( self, c ):
 		return Coord( self.x+c.x, self.y+c.y )
@@ -345,7 +345,7 @@ class Module( PcbObject ):
 				self.objs.append( self.obj )
 				self.obj = None
 		elif words[0] == "Po":
-			self.position = Coord( int(words[1]), int(words[2]) )
+			self.position = Coord( float(words[1]), float(words[2]) )
 			self.angle = int(words[3])
 			self.po4 = words[4]
 			self.po5 = words[5]
@@ -474,10 +474,10 @@ class Textpcb( PcbObject ):
 		elif words[0] == "nl":
 			self.text += "\n" + line.split( "\"" )[1]
 		elif words[0] == "Po":
-			self.position = Coord( int(words[1]), int(words[2]) )
-			self.charwidth = int(words[3])
-			self.charheight = int(words[4])
-			self.linewidth = int(words[5])
+			self.position = Coord( float(words[1]), float(words[2]) )
+			self.charwidth = float(words[3])
+			self.charheight = float(words[4])
+			self.linewidth = float(words[5])
 			self.angle = int(words[6])
 		elif words[0] == "De":
 			self.de = line
@@ -486,7 +486,7 @@ class Textpcb( PcbObject ):
 	def write( self, ofd ):
 		ofd.write( "$TEXTPCB\n" )
 		ofd.write( "Te \"%s\"\n" % self.text.replace( "\n", "\"\nnl \"" ) )
-		ofd.write( "Po %s %d %d %d %d\n" % ( self.position.to_str(),
+		ofd.write( "Po %s %f %f %f %d\n" % ( self.position.to_str(),
 				self.charwidth, self.charheight, self.linewidth, self.angle ) )
 		ofd.write( self.de + "\n" )
 		ofd.write( "$EndTEXTPCB\n" )
@@ -519,9 +519,9 @@ class Track( PcbObject ):
 		PcbObject.__init__( self )
 		if words != None:
 			self.po1 = int(words[1])
-			self.coord1 = Coord( int(words[2]), int(words[3]) )
-			self.coord2 = Coord( int(words[4]), int(words[5]) )
-			self.width = int(words[6])
+			self.coord1 = Coord( float(words[2]), float(words[3]) )
+			self.coord2 = Coord( float(words[4]), float(words[5]) )
+			self.width = float(words[6])
 			self.po7 = int(words[7])
 
 	def clone( self, transform=nulltransform ):
@@ -551,7 +551,7 @@ class Track( PcbObject ):
 		return True, True
 
 	def write( self, ofd ):
-		ofd.write( "Po %d %s %s %d %d\n" % ( self.po1,
+		ofd.write( "Po %d %s %s %f %d\n" % ( self.po1,
 				self.coord1.to_str(), self.coord2.to_str(),
 				self.width, self.po7 ) )
 		ofd.write( "De %d %s %s %s %s\n" % ( self.layer,
@@ -614,7 +614,7 @@ class CzoneOutline( PcbObject ):
 		elif words[0] == "$endPOLYSCORNERS":
 			self.in_polyscorners = False
 		elif self.in_polyscorners:
-			self.polyscorners.append( ( Coord( int(words[0]), int(words[1]) ),
+			self.polyscorners.append( ( Coord( float(words[0]), float(words[1]) ),
 					int(words[2]), int(words[3]) ) )
 		elif words[0] == "ZCorner":
 			self.add( ( Coord( int(words[1]), int(words[2]) ), int(words[3]) ) )
