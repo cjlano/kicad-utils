@@ -327,7 +327,7 @@ class Module( PcbObject ):
 		for line in self.lines:
 			if line.startswith( "T0 " ):
 				words = line.split()
-				words[11] = "\"%s\"" % transform.name( words[11][1:-1] )
+				#words[11] = "\"%s\"" % transform.name( words[11][1:-1] )
 				line = " ".join( words )
 			m.lines.append( line )
 		for obj in self.objs:
