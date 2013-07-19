@@ -1,0 +1,6 @@
+[submodule "svg2silk/svg"]
+	path = svg2silk/svg
+	url = https://github.com/cjlano/svg
+[submodule "svg2silk/kicad"]
+	path = svg2silk/kicad
+	url = https://github.com/cjlano/pykicad
