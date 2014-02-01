@@ -25,7 +25,7 @@ import copy
 def draw(f, m):
     for draw in f.flatten():
         if isinstance(draw, svg.Circle):
-            m.draw(kicad.Circle(draw.center.coord(), draw.radius, 0.1524))
+            m.draw(kicad.Circle(draw.center.coord(), draw.rx, 0.1524))
         elif hasattr(draw, 'segments'):
             if draw.style and 'fill' in draw.style and '000000' in draw.style:
                 for segment in draw.segments(0.1):
