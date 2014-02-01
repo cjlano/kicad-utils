@@ -17,41 +17,56 @@
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 from kicad import *
-from svg import *
+import svg
 import sys
+import copy
 
-f = svg.Svg(sys.argv[1])
-
-l = kicad.LibModule("/tmp/1.mod")
-m = kicad.Module("MyTest")
-m.reference('G*')
-m.value(f.title())
-
-a,b = f.bbox()
-# We want a 10.0mm width logo
-width = 100.0
-ratio = width/(b-a).x
-# Centering offset
-offset = (a-b)*0.5*ratio
-
-for draw in f.drawing:
-    if isinstance(draw, svg.Path):
-        for segment in draw.simplify(0.1):
-            pts = [x.coord() for x in segment]
-            pts.reverse()
-            p1 = pts.pop()
-            while pts:
-                p2 = pts.pop()
-                m.draw(kicad.Segment(p1, p2, 0.20))
-                p1 = p2
-    elif isinstance(draw, svg.Circle):
-        m.draw(kicad.Circle(draw.center.coord(), draw.radius, 0.20))
-    else:
-        print("Unsupported SVG element" + draw)
+def draw(f, m):
+    for draw in f.flatten():
+        if isinstance(draw, svg.Circle):
+            m.draw(kicad.Circle(draw.center.coord(), draw.radius, 0.1524))
+        elif hasattr(draw, 'segments'):
+            if draw.style and 'fill' in draw.style and '000000' in draw.style:
+                for segment in draw.segments(0.1):
+                    m.draw(kicad.Polygon([x.coord() for x in segment]))
+                print('style: ' + draw.style)
+            else:
+                for segment in draw.segments(0.1):
+                    pts = [x.coord() for x in segment]
+                    pts.reverse()
+                    p1 = pts.pop()
+                    while pts:
+                        p2 = pts.pop()
+                        m.draw(kicad.Segment(p1, p2, 0.1524))
+                        p1 = p2
+        else:
+            print("Unsupported SVG element" + draw)
 
 #for s in f.scale(ratio).translate(offset).simplify(0.01):
 #    m.draw(kicad.Polygon([x.coord() for x in s]))
 
-l.add_module(m)
+
+fsvg = svg.Svg(sys.argv[1])
+name = fsvg.title()
+print('Scale ' + name + ' to ' + str(sys.argv[2:]) + ' widths')
+
+
+l = kicad.LibModule(name + '.mod')
+
+for width in sys.argv[2:]:
+    f = copy.deepcopy(fsvg)
+    m = kicad.Module(name + '-' + width)
+    m.reference('G*')
+    m.value(name)
+
+    # Scale to 'width'
+    a,b = f.bbox()
+    ratio = int(width)/(b-a).x
+    # Centering offset
+    offset = (a-b)*0.5*ratio
+    f.scale(ratio)
+    draw(f,m)
+    l.add_module(m)
+
 l.write()
 
