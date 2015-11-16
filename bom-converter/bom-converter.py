@@ -34,14 +34,14 @@ class XmlBom(object):
             # write component into dictionary
             component = {}
             component['designators'] = [comp.attrib['ref']] # designators key contains list
-            component['value'] = "" if comp.find('value') is None else comp.find('value').text
-            component['footprint'] = "" if comp.find('footprint') is None else comp.find('footprint').text
-            component['datasheet'] = "" if comp.find('datasheet') is None else comp.find('datasheet').text
+            component['value'] = "" if comp.find('value') is None else comp.find('value').text.strip()
+            component['footprint'] = "" if comp.find('footprint') is None else comp.find('footprint').text.strip()
+            component['datasheet'] = "" if comp.find('datasheet') is None else comp.find('datasheet').text.strip()
 
             fields = comp.find('fields');
             if fields is not None:
                 for field in fields.iter('field'):
-                    component[field.attrib['name']] = field.text
+                    component[field.attrib['name']] = field.text.strip()
 
             # add dictionary to list
             self.components.append(component)
