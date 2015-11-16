@@ -3,6 +3,7 @@
 # @author: Simon Gansen
 
 import argparse
+import os
 import re
 from operator import itemgetter
 
@@ -15,6 +16,7 @@ class XmlBom(object):
     """Manages parsing and preparation of the input XML file"""
 
     def __init__(self):
+        self.title = ''
         self.components = []
 
     def __str__(self):
@@ -30,6 +32,7 @@ class XmlBom(object):
         xml_tree = etree.parse(filename)
         xml_root = xml_tree.getroot()
 
+        # parse xml
         for comp in xml_root.iter('comp'):
             # write component into dictionary
             component = {}
@@ -45,6 +48,9 @@ class XmlBom(object):
 
             # add dictionary to list
             self.components.append(component)
+
+        # set title from filename
+            self.title = os.path.splitext(filename)[0]
 
     def merge_similar(self):
         merged_components = []
@@ -118,6 +124,7 @@ class HtmlBom(object):
         html += '\t<title>Kicad BOM</title>\n'
         html += '\t<style media=\"screen\" type=\"text/css\">\n'
         html += '\t\tbody { font-family: monospace; }\n'
+        html += '\t\th1 { text-decoration: underline }\n'
         html += '\t\ttable { border-collapse: collapse; width: 100%; }\n'
         html += '\t\tth { border: 1px solid darkgrey; padding: 1em; background-color: lightgreen; }\n'
         html += '\t\ttd { border: 1px solid darkgrey; padding: 1em; }\n'
@@ -129,6 +136,9 @@ class HtmlBom(object):
         html += '</head>\n'
         html += '<body>\n'
         html += '\t<table>\n'
+        html += '\t\t<tr>\n'
+        html += '\t\t\t<th colspan=\"10\"><h1>' + xml_bom.title + '</h1></th>\n'
+        html += '\t\t</tr>\n'
         html += '\t\t<tr>\n'
         html += '\t\t\t<th rowspan=\"2\">Designators</th>\n'
         html += '\t\t\t<th rowspan=\"2\">Quantity</th>\n'
