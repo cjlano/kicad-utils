@@ -65,8 +65,11 @@ class XmlBom(object):
                             match = False
                             break
                     except KeyError:
-                        match = False
-                        print('Missing field ', key, ' in ', c['designators'][0])
+                        if key in m and key in c:
+                            match = True
+                            print('Missing field ', key, ' in ', c['designators'][0])
+                        else:
+                            match = False
                         break
 
                 # merge to matching component
