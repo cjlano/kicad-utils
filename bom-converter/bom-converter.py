@@ -48,18 +48,34 @@ class XmlBom(object):
 
     def merge_similar(self):
         merged_components = []
+
+        # traverse all components
         for c in self.components:
             merged = False
 
             # try to find matching component
             for m in merged_components:
-                if m['value'] == c['value'] and m['footprint'] == c['footprint']:
-                    # merge to existing component
+
+                # compare all fields
+                match = True;
+                for key in ['value', 'footprint', 'datasheet', 'Supplier', 'Supplier Part Number',
+                            'Supplier Link', 'Manufacturer', 'Manufacturer Part Number']:
+                    try:
+                        if m[key] != c[key]:
+                            match = False
+                            break
+                    except KeyError:
+                        match = False
+                        print('Missing field ', key, ' in ', c['designators'][0])
+                        break
+
+                # merge to matching component
+                if match:
                     m['designators'].append(c['designators'][0])
                     merged = True
                     break
 
-            # add if not already done during merge
+            # append to temporary list if not already merged
             if not merged:
                 merged_components.append(c)
 
