@@ -21,6 +21,7 @@ class XmlBom(object):
         self.filename = ''
 
     def __str__(self):
+        self.count()
         out = ''
         for c in self.components:
             out += str(c['qty']) + 'x\t'
@@ -220,12 +221,11 @@ class CsvBom(object):
         for c in self.xml_bom.components:
             try:
                 row_sequence = (str(c['qty']), c['Supplier Part Number'], c['Manufacturer Part Number'])
+                row = seperator.join(row_sequence)
+                csv += row + '\n'
+                row_count += 1
             except KeyError as exc:
                 print('Ignoring', c['designators'], 'due to missing key(s) named', exc.args[0])
-
-            row = seperator.join(row_sequence)
-            csv += row + '\n'
-            row_count += 1
 
         print('Added', str(row_count), 'rows')
         return csv
