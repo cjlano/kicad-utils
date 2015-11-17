@@ -73,6 +73,9 @@ class XmlBom(object):
                     except KeyError:
                         if key in m and key in c:
                             match = True
+                            print('Empty field ', key, ' in ', c['designators'][0])
+                        elif not key in m and not key in c:
+                            match = True
                             print('Missing field ', key, ' in ', c['designators'][0])
                         else:
                             match = False
