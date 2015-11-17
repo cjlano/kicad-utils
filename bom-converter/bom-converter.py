@@ -196,18 +196,40 @@ class HtmlBom(object):
         html += '</html>\n'
         return html
 
+class CsvBom(object):
+    """
+    Generates CSV (that can be imported by certain suppliers) from a given XmlBom object
+    """
+
+    def __init__(self, xml_bom):
+        self.xml_bom = xml_bom
+
+    def get_csv_string(self):
+        seperator = ', '
+        csv = 'QTY,\tSupplier Part Number,\tManufacturer Part Number\n'
+        for c in self.xml_bom.components:
+            try:
+                row_sequence = (str(c['qty']), c['Supplier Part Number'], c['Manufacturer Part Number'])
+            except KeyError as exc:
+                print('Ignoring', c['designators'], 'due to missing key(s) named', exc.args[0])
+
+            row = seperator.join(row_sequence)
+            csv += row + '\n'
+
+        return csv
 
 if __name__ == "__main__":
 
     # parse arguments
     argparser = argparse.ArgumentParser(description='Converts a kicad bom given in XML format to HTML.')
-    argparser.add_argument('infile')
-    argparser.add_argument('outfile', nargs='?')
+    argparser.add_argument('infile', help='XML file exported by eeschema (kicad)')
+    argparser.add_argument('htmlfile', nargs='?', help='HTML output file')
+    argparser.add_argument('--csv', dest='csv_output', nargs='?', help='CSV output file')
     args = argparser.parse_args()
 
-    # default output file name
-    if args.outfile is None:
-        args.outfile = args.infile + '.html'
+    # default html output file name
+    if args.htmlfile is None:
+        args.htmlfile = args.infile + '.html'
 
     # load xml file
     xml_bom = XmlBom()
@@ -220,7 +242,15 @@ if __name__ == "__main__":
     html_bom = HtmlBom(xml_bom)
     html = html_bom.get_html_string()
 
-    # write to file
-    with open(args.outfile, 'w') as outfile:
-        outfile.write(html)
-        print('HTML file ' + outfile.name + ' written')
+    # if required, create a csv file
+    if args.csv_output:
+        csv_bom = CsvBom(xml_bom)
+        csv = csv_bom.get_csv_string()
+        with open(args.csv_output, 'w') as csv_file:
+            csv_file.write(csv)
+            print('CSV file', csv_file.name, 'written')
+
+    # write html to file
+    with open(args.htmlfile, 'w') as html_file:
+        html_file.write(html)
+        print('HTML file ' + html_file.name + ' written')
