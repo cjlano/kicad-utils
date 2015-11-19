@@ -18,3 +18,7 @@ This Perl script makes the job of merging both files in a single one.
 svg2silk
 --------
 This script is an original work which allows to draw SVG image onto PCB silkscreen.
+
+bom-converter
+-------------
+This script creates a bill of material in HTML

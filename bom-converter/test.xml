@@ -1,0 +1,2428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/simon/repositories/uMIDI-switcher/hardware/uMIDI-switcher.sch</source>
+    <date>Fri 23 Oct 2015 06:58:16 PM CEST</date>
+    <tool>Eeschema (2015-09-12 BZR 6188)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>uMIDI-switcher.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Tuner/" tstamps="/56223A3E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bypass.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Looper2/" tstamps="/56223A52/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>looper.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bypass.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Looper3/" tstamps="/56223A60/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>looper.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bypass.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Looper4/" tstamps="/56223A6E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>looper.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bypass.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Looper5/" tstamps="/56223A7C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>looper.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bypass.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Looper1/" tstamps="/56223A90/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>looper.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>bypass.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="13" name="/Switch1/" tstamps="/56223B06/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="14" name="/Switch2/" tstamps="/56223B14/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B6FB17</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B708C3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MC7809CD</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">863-MC7809CD2TG</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/ON-Semiconductor/MC7809CD2TG/?qs=%2fha2pyFaduirlRo6%252b6i1uMvVNFngtSJ1eHWtI%2fIMkDq4igjKaFxhjA%3d%3d</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">MC7809CD2TG</field>
+      </fields>
+      <libsource lib="regul" part="LM7809CT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B757C4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B757CA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B757D0</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>CONN_01X02</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <fields>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B757F4</tstamp>
+    </comp>
+    <comp ref="X4">
+      <value>CONN_01X02</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <fields>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B76CFF</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM21BR61E106KA73%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM21BR61E106KA3L</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM21BR61E106KA73L/?qs=sGAEpiMZZMs0AnBnWHyRQEM2qvC6XUvU2imHfdddTY8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM21BR61E106KA73L</field>
+        <field name="Manufacturer Link">http://psearch.en.murata.com/capacitor/lineup/grm/</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B77F88</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F4367E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F43684</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>CONN_01X02</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <fields>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F436A4</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F437AB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F437B1</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>CONN_01X02</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <fields>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55F437D1</tstamp>
+    </comp>
+    <comp ref="X6">
+      <value>uMIDI GPIO</value>
+      <footprint>Connect:VASCH5x2</footprint>
+      <datasheet>http://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">517-30310-6002</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/3M-Electronic-Solutions-Division/30310-6002HB/?qs=sGAEpiMZZMs%252bGHln7q6pmwu5ra4CY41iHF1AQhwXwqM%3d</field>
+        <field name="Manufacturer">3M Electronic Solutions Division</field>
+        <field name="Manufacturer Link">30310-6002HB</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55FDA32A</tstamp>
+    </comp>
+    <comp ref="X7">
+      <value>uMIDI Power</value>
+      <footprint>Connect:PINHEAD1-2</footprint>
+      <fields>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55FDF236</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55FDFE71</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>B160</value>
+      <footprint>Diodes_SMD:SMA_Standard</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds13002.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-B160-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/B160-13-F/?qs=sGAEpiMZZMtQ8nqTKtFS%2fKHDuEI9vWaqnxWdXZaW6Wg%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">B160-13-F</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55FE235B</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM21BR61E106KA73%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM21BR61E106KA3L</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM21BR61E106KA73L/?qs=sGAEpiMZZMs0AnBnWHyRQEM2qvC6XUvU2imHfdddTY8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM21BR61E106KA73L</field>
+        <field name="Manufacturer Link">http://psearch.en.murata.com/capacitor/lineup/grm/</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55FECDD5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM21BR61E106KA73%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM21BR61E106KA3L</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM21BR61E106KA73L/?qs=sGAEpiMZZMs0AnBnWHyRQEM2qvC6XUvU2imHfdddTY8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM21BR61E106KA73L</field>
+        <field name="Manufacturer Link">http://psearch.en.murata.com/capacitor/lineup/grm/</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55FED0DF</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MC7809CD</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">863-MC7809CD2TG</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/ON-Semiconductor/MC7809CD2TG/?qs=%2fha2pyFaduirlRo6%252b6i1uMvVNFngtSJ1eHWtI%2fIMkDq4igjKaFxhjA%3d%3d</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">MC7809CD2TG</field>
+      </fields>
+      <libsource lib="regul" part="LM7809CT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56212BE2</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MC7809CD</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">863-MC7809CD2TG</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/ON-Semiconductor/MC7809CD2TG/?qs=%2fha2pyFaduirlRo6%252b6i1uMvVNFngtSJ1eHWtI%2fIMkDq4igjKaFxhjA%3d%3d</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">MC7809CD2TG</field>
+      </fields>
+      <libsource lib="regul" part="LM7809CT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56212CAE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MC7809CD</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2Lead</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/MC7800-D.PDF</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">863-MC7809CD2TG</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/ON-Semiconductor/MC7809CD2TG/?qs=%2fha2pyFaduirlRo6%252b6i1uMvVNFngtSJ1eHWtI%2fIMkDq4igjKaFxhjA%3d%3d</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">MC7809CD2TG</field>
+      </fields>
+      <libsource lib="regul" part="LM7809CT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56212EDF</tstamp>
+    </comp>
+    <comp ref="X5">
+      <value>Jack_Stacked</value>
+      <footprint>uMIDI-switcher:NSJ12HF-1</footprint>
+      <datasheet>http://www.neutrik.com/zoolu-website/media/download/2927/Drawing+NSJ12HF-1</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">568-NSJ12HF-1</field>
+        <field name="Supplier Link">http://www.mouser.de/ProductDetail/Neutrik/NSJ12HF-1/?qs=%2fha2pyFaduh94rO%252bidRgYpzOVRjO%2fmX%2foGmQWxGiJcnBKJApPofXWA%3d%3d</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer Part Number">NSJ12HF-1</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Jack_Stacked"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56223AA2</tstamp>
+    </comp>
+    <comp ref="X8">
+      <value>Jack_Stacked</value>
+      <footprint>uMIDI-switcher:NSJ12HF-1</footprint>
+      <datasheet>http://www.neutrik.com/zoolu-website/media/download/2927/Drawing+NSJ12HF-1</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">568-NSJ12HF-1</field>
+        <field name="Supplier Link">http://www.mouser.de/ProductDetail/Neutrik/NSJ12HF-1/?qs=%2fha2pyFaduh94rO%252bidRgYpzOVRjO%2fmX%2foGmQWxGiJcnBKJApPofXWA%3d%3d</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer Part Number">NSJ12HF-1</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Jack_Stacked"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56223ACE</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56216FAF</tstamp>
+    </comp>
+    <comp ref="REL1">
+      <value>Omron G6K-2P-5VCD</value>
+      <footprint>uMIDI-switcher:Omron_G6K-2P</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">653-G6K-2P-Y-DC5</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer Part Number">G6K-2P-Y-DC5</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_DPDT"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D79A29</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D79DA0</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D7A6A7</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D7AAB4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D7ADF3</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D7AECB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D7C711</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>54D7C874</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>55F44BB0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Tuner/" tstamps="/56223A3E/"/>
+      <tstamp>55F44BF3</tstamp>
+    </comp>
+    <comp ref="X9">
+      <value>Jack_Stacked</value>
+      <footprint>uMIDI-switcher:NSJ12HF-1</footprint>
+      <datasheet>http://www.neutrik.com/zoolu-website/media/download/2927/Drawing+NSJ12HF-1</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">568-NSJ12HF-1</field>
+        <field name="Supplier Link">http://www.mouser.de/ProductDetail/Neutrik/NSJ12HF-1/?qs=%2fha2pyFaduh94rO%252bidRgYpzOVRjO%2fmX%2foGmQWxGiJcnBKJApPofXWA%3d%3d</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer Part Number">NSJ12HF-1</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Jack_Stacked"/>
+      <sheetpath names="/Looper2/" tstamps="/56223A52/"/>
+      <tstamp>54E9CF0E</tstamp>
+    </comp>
+    <comp ref="REL2">
+      <value>Omron G6K-2P-5VCD</value>
+      <footprint>uMIDI-switcher:Omron_G6K-2P</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">653-G6K-2P-Y-DC5</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer Part Number">G6K-2P-Y-DC5</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_DPDT"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D79A29</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D79DA0</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D7A6A7</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D7AAB4</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D7ADF3</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D7AECB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D7C711</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>54D7C874</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>55F44BB0</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper2/Single True Bypass/" tstamps="/56223A52/54E9BE9F/"/>
+      <tstamp>55F44BF3</tstamp>
+    </comp>
+    <comp ref="X10">
+      <value>Jack_Stacked</value>
+      <footprint>uMIDI-switcher:NSJ12HF-1</footprint>
+      <datasheet>http://www.neutrik.com/zoolu-website/media/download/2927/Drawing+NSJ12HF-1</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">568-NSJ12HF-1</field>
+        <field name="Supplier Link">http://www.mouser.de/ProductDetail/Neutrik/NSJ12HF-1/?qs=%2fha2pyFaduh94rO%252bidRgYpzOVRjO%2fmX%2foGmQWxGiJcnBKJApPofXWA%3d%3d</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer Part Number">NSJ12HF-1</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Jack_Stacked"/>
+      <sheetpath names="/Looper3/" tstamps="/56223A60/"/>
+      <tstamp>54E9CF0E</tstamp>
+    </comp>
+    <comp ref="REL3">
+      <value>Omron G6K-2P-5VCD</value>
+      <footprint>uMIDI-switcher:Omron_G6K-2P</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">653-G6K-2P-Y-DC5</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer Part Number">G6K-2P-Y-DC5</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_DPDT"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D79A29</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D79DA0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D7A6A7</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D7AAB4</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D7ADF3</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D7AECB</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D7C711</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>54D7C874</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>55F44BB0</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper3/Single True Bypass/" tstamps="/56223A60/54E9BE9F/"/>
+      <tstamp>55F44BF3</tstamp>
+    </comp>
+    <comp ref="X11">
+      <value>Jack_Stacked</value>
+      <footprint>uMIDI-switcher:NSJ12HF-1</footprint>
+      <datasheet>http://www.neutrik.com/zoolu-website/media/download/2927/Drawing+NSJ12HF-1</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">568-NSJ12HF-1</field>
+        <field name="Supplier Link">http://www.mouser.de/ProductDetail/Neutrik/NSJ12HF-1/?qs=%2fha2pyFaduh94rO%252bidRgYpzOVRjO%2fmX%2foGmQWxGiJcnBKJApPofXWA%3d%3d</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer Part Number">NSJ12HF-1</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Jack_Stacked"/>
+      <sheetpath names="/Looper4/" tstamps="/56223A6E/"/>
+      <tstamp>54E9CF0E</tstamp>
+    </comp>
+    <comp ref="REL4">
+      <value>Omron G6K-2P-5VCD</value>
+      <footprint>uMIDI-switcher:Omron_G6K-2P</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">653-G6K-2P-Y-DC5</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer Part Number">G6K-2P-Y-DC5</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_DPDT"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D79A29</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D79DA0</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D7A6A7</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D7AAB4</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D7ADF3</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D7AECB</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D7C711</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>54D7C874</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>55F44BB0</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper4/Single True Bypass/" tstamps="/56223A6E/54E9BE9F/"/>
+      <tstamp>55F44BF3</tstamp>
+    </comp>
+    <comp ref="X12">
+      <value>Jack_Stacked</value>
+      <footprint>uMIDI-switcher:NSJ12HF-1</footprint>
+      <datasheet>http://www.neutrik.com/zoolu-website/media/download/2927/Drawing+NSJ12HF-1</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">568-NSJ12HF-1</field>
+        <field name="Supplier Link">http://www.mouser.de/ProductDetail/Neutrik/NSJ12HF-1/?qs=%2fha2pyFaduh94rO%252bidRgYpzOVRjO%2fmX%2foGmQWxGiJcnBKJApPofXWA%3d%3d</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer Part Number">NSJ12HF-1</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Jack_Stacked"/>
+      <sheetpath names="/Looper5/" tstamps="/56223A7C/"/>
+      <tstamp>54E9CF0E</tstamp>
+    </comp>
+    <comp ref="REL5">
+      <value>Omron G6K-2P-5VCD</value>
+      <footprint>uMIDI-switcher:Omron_G6K-2P</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">653-G6K-2P-Y-DC5</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer Part Number">G6K-2P-Y-DC5</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_DPDT"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D79A29</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D79DA0</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D7A6A7</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D7AAB4</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D7ADF3</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D7AECB</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D7C711</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>54D7C874</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>55F44BB0</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper5/Single True Bypass/" tstamps="/56223A7C/54E9BE9F/"/>
+      <tstamp>55F44BF3</tstamp>
+    </comp>
+    <comp ref="X13">
+      <value>Jack_Stacked</value>
+      <footprint>uMIDI-switcher:NSJ12HF-1</footprint>
+      <datasheet>http://www.neutrik.com/zoolu-website/media/download/2927/Drawing+NSJ12HF-1</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">568-NSJ12HF-1</field>
+        <field name="Supplier Link">http://www.mouser.de/ProductDetail/Neutrik/NSJ12HF-1/?qs=%2fha2pyFaduh94rO%252bidRgYpzOVRjO%2fmX%2foGmQWxGiJcnBKJApPofXWA%3d%3d</field>
+        <field name="Manufacturer">Neutrik</field>
+        <field name="Manufacturer Part Number">NSJ12HF-1</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Jack_Stacked"/>
+      <sheetpath names="/Looper1/" tstamps="/56223A90/"/>
+      <tstamp>54E9CF0E</tstamp>
+    </comp>
+    <comp ref="REL6">
+      <value>Omron G6K-2P-5VCD</value>
+      <footprint>uMIDI-switcher:Omron_G6K-2P</footprint>
+      <datasheet>https://www.omron.com/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">653-G6K-2P-Y-DC5</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Manufacturer Part Number">G6K-2P-Y-DC5</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_DPDT"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D79A29</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D79DA0</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D7A6A7</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D7AAB4</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D7ADF3</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D7AECB</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D7C711</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>54D7C874</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>55F44BB0</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>100M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603100MJPEA</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW0603100MJPEAHR</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Looper1/Single True Bypass/" tstamps="/56223A90/54E9BE9F/"/>
+      <tstamp>55F44BF3</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Switch1/" tstamps="/56223B06/"/>
+      <tstamp>54E8DEE8</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Switch1/" tstamps="/56223B06/"/>
+      <tstamp>54E8DF2C</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Switch1/" tstamps="/56223B06/"/>
+      <tstamp>54E8E18C</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Switch1/" tstamps="/56223B06/"/>
+      <tstamp>54E8E1C0</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Switch1/" tstamps="/56223B06/"/>
+      <tstamp>54E8E27F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Switch1/" tstamps="/56223B06/"/>
+      <tstamp>54E8EB7A</tstamp>
+    </comp>
+    <comp ref="REL7">
+      <value>Meder SIL05-1A72-71L</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="Supplier">Reichelt</field>
+        <field name="Part Number">SIL 7271-L 5V</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_SPST"/>
+      <sheetpath names="/Switch1/" tstamps="/56223B06/"/>
+      <tstamp>54E8CCF9</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BSS138</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">512-BSS138 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d</field>
+        <field name="Manufacturer">Fairchild</field>
+        <field name="Manufacturer Part Number">BSS138</field>
+      </fields>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/Switch2/" tstamps="/56223B14/"/>
+      <tstamp>54E8DEE8</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.vishay.com/docs/20022/dcrcwhe3.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">71-CRCW0603J-10K-E3</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d</field>
+        <field name="Manufacturer">Vishay/Dale</field>
+        <field name="Manufacturer Part Number">CRCW060310K0JNEA</field>
+        <field name="Manufacturer Link">http://www.vishay.com/resistors-fixed/list/product-20011/</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Switch2/" tstamps="/56223B14/"/>
+      <tstamp>54E8DF2C</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Switch2/" tstamps="/56223B14/"/>
+      <tstamp>54E8E18C</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>TBD</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Switch2/" tstamps="/56223B14/"/>
+      <tstamp>54E8E1C0</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">81-GRM39X104K25 </field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Manufacturer Part Number">GRM188R71E104KA01D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Switch2/" tstamps="/56223B14/"/>
+      <tstamp>54E8E27F</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>http://www.diodes.com/_files/datasheets/ds30086.pdf</datasheet>
+      <fields>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">621-1N4148W-F</field>
+        <field name="Supplier Link">http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer Part Number">1N4148W-7-F</field>
+        <field name="Manufacturer Link">http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800</field>
+      </fields>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/Switch2/" tstamps="/56223B14/"/>
+      <tstamp>54E8EB7A</tstamp>
+    </comp>
+    <comp ref="REL8">
+      <value>Meder SIL05-1A72-71L</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="Supplier">Reichelt</field>
+        <field name="Part Number">SIL 7271-L 5V</field>
+      </fields>
+      <libsource lib="uMIDI-switcher-cache" part="Relais_SPST"/>
+      <sheetpath names="/Switch2/" tstamps="/56223B14/"/>
+      <tstamp>54E8CCF9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_Small">
+      <description>Diode Schottky</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X10">
+      <footprints>
+        <fp>Pin_Header_Straight_1X10</fp>
+        <fp>Pin_Header_Angled_1X10</fp>
+        <fp>Socket_Strip_Straight_1X10</fp>
+        <fp>Socket_Strip_Angled_1X10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM7805CT">
+      <aliases>
+        <alias>LM7806CT</alias>
+        <alias>LM7808CT</alias>
+        <alias>LM7809CT</alias>
+        <alias>LM7810CT</alias>
+        <alias>LM7812CT</alias>
+        <alias>LM7815CT</alias>
+        <alias>LM7818CT</alias>
+        <alias>LM7824CT</alias>
+        <alias>LM7806ACT</alias>
+        <alias>LM7808ACT</alias>
+        <alias>LM7809ACT</alias>
+        <alias>LM7810ACT</alias>
+        <alias>LM7812ACT</alias>
+        <alias>LM7815ACT</alias>
+        <alias>LM7818ACT</alias>
+        <alias>LM7824ACT</alias>
+      </aliases>
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805CT</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="uMIDI-switcher-cache" part="Jack_Stacked">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">Jack_Stacked</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Shield" type="BiDi"/>
+        <pin num="2" name="SB" type="BiDi"/>
+        <pin num="3" name="ST" type="BiDi"/>
+        <pin num="4" name="RB" type="BiDi"/>
+        <pin num="5" name="RT" type="BiDi"/>
+        <pin num="6" name="TB" type="BiDi"/>
+        <pin num="7" name="TT" type="BiDi"/>
+        <pin num="8" name="TNT" type="BiDi"/>
+        <pin num="9" name="TNB" type="BiDi"/>
+        <pin num="10" name="RNT" type="BiDi"/>
+        <pin num="11" name="RNB" type="BiDi"/>
+        <pin num="12" name="SNT" type="BiDi"/>
+        <pin num="13" name="SNB" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="uMIDI-switcher-cache" part="Relais_DPDT">
+      <fields>
+        <field name="Reference">REL</field>
+        <field name="Value">Relais_DPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="A" type="BiDi"/>
+        <pin num="3" name="C" type="BiDi"/>
+        <pin num="4" name="B" type="BiDi"/>
+        <pin num="5" name="B" type="BiDi"/>
+        <pin num="6" name="C" type="BiDi"/>
+        <pin num="7" name="A" type="BiDi"/>
+        <pin num="8" name="-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="uMIDI-switcher-cache" part="Relais_SPST">
+      <fields>
+        <field name="Reference">REL</field>
+        <field name="Value">Relais_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="BiDi"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="B" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/local/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/local/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="uMIDI-switcher-cache">
+      <uri>/home/simon/repositories/uMIDI-switcher/hardware/uMIDI-switcher-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDA">
+      <node ref="X10" pin="1"/>
+      <node ref="X10" pin="2"/>
+      <node ref="X10" pin="4"/>
+      <node ref="X10" pin="5"/>
+      <node ref="X10" pin="7"/>
+      <node ref="X10" pin="8"/>
+      <node ref="X11" pin="5"/>
+      <node ref="X11" pin="12"/>
+      <node ref="X11" pin="11"/>
+      <node ref="X11" pin="10"/>
+      <node ref="X11" pin="8"/>
+      <node ref="X11" pin="7"/>
+      <node ref="X11" pin="4"/>
+      <node ref="X11" pin="2"/>
+      <node ref="X11" pin="1"/>
+      <node ref="X11" pin="13"/>
+      <node ref="R2" pin="2"/>
+      <node ref="REL1" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="X10" pin="13"/>
+      <node ref="X10" pin="12"/>
+      <node ref="X10" pin="11"/>
+      <node ref="X10" pin="10"/>
+      <node ref="X9" pin="11"/>
+      <node ref="X9" pin="12"/>
+      <node ref="X9" pin="13"/>
+      <node ref="X9" pin="10"/>
+      <node ref="X9" pin="8"/>
+      <node ref="X9" pin="7"/>
+      <node ref="X9" pin="5"/>
+      <node ref="X9" pin="4"/>
+      <node ref="X9" pin="2"/>
+      <node ref="X9" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="X12" pin="1"/>
+      <node ref="X12" pin="2"/>
+      <node ref="X12" pin="4"/>
+      <node ref="X12" pin="7"/>
+      <node ref="X12" pin="8"/>
+      <node ref="X12" pin="10"/>
+      <node ref="X12" pin="11"/>
+      <node ref="X12" pin="12"/>
+      <node ref="X12" pin="13"/>
+      <node ref="X12" pin="5"/>
+      <node ref="X13" pin="1"/>
+      <node ref="X13" pin="2"/>
+      <node ref="X13" pin="4"/>
+      <node ref="X13" pin="5"/>
+      <node ref="X13" pin="7"/>
+      <node ref="X13" pin="8"/>
+      <node ref="X13" pin="13"/>
+      <node ref="X13" pin="12"/>
+      <node ref="X13" pin="11"/>
+      <node ref="X13" pin="10"/>
+      <node ref="X5" pin="2"/>
+      <node ref="X5" pin="13"/>
+      <node ref="X5" pin="5"/>
+      <node ref="X5" pin="3"/>
+      <node ref="X5" pin="1"/>
+      <node ref="X8" pin="1"/>
+      <node ref="X8" pin="3"/>
+      <node ref="X5" pin="10"/>
+      <node ref="X8" pin="10"/>
+      <node ref="X8" pin="12"/>
+      <node ref="X5" pin="4"/>
+      <node ref="X8" pin="5"/>
+      <node ref="X5" pin="11"/>
+      <node ref="R1" pin="1"/>
+      <node ref="X5" pin="12"/>
+    </net>
+    <net code="2" name="/Tuner/Loop_In">
+      <node ref="X5" pin="6"/>
+      <node ref="REL1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(X8-Pad13)">
+      <node ref="X8" pin="13"/>
+    </net>
+    <net code="4" name="Net-(X8-Pad11)">
+      <node ref="X8" pin="11"/>
+    </net>
+    <net code="5" name="Net-(X8-Pad9)">
+      <node ref="X8" pin="9"/>
+    </net>
+    <net code="6" name="Net-(X8-Pad8)">
+      <node ref="X8" pin="8"/>
+    </net>
+    <net code="7" name="/Looper5/Loop_Out">
+      <node ref="X8" pin="7"/>
+      <node ref="REL5" pin="6"/>
+    </net>
+    <net code="8" name="/Looper5/Loop_In">
+      <node ref="REL4" pin="6"/>
+      <node ref="REL5" pin="3"/>
+    </net>
+    <net code="9" name="/Looper4/Loop_In">
+      <node ref="REL3" pin="6"/>
+      <node ref="REL4" pin="3"/>
+    </net>
+    <net code="10" name="/Looper3/Loop_In">
+      <node ref="REL3" pin="3"/>
+      <node ref="REL2" pin="6"/>
+    </net>
+    <net code="11" name="/Looper1/Loop_In">
+      <node ref="REL1" pin="6"/>
+      <node ref="REL6" pin="3"/>
+    </net>
+    <net code="12" name="Net-(X5-Pad9)">
+      <node ref="X5" pin="9"/>
+    </net>
+    <net code="13" name="Net-(X5-Pad8)">
+      <node ref="X5" pin="8"/>
+    </net>
+    <net code="14" name="/Tuner/FX_Send">
+      <node ref="REL1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="X5" pin="7"/>
+    </net>
+    <net code="15" name="/Looper2/Loop_In">
+      <node ref="REL6" pin="6"/>
+      <node ref="REL2" pin="3"/>
+    </net>
+    <net code="16" name="/Looper1/Ctrl">
+      <node ref="R31" pin="1"/>
+      <node ref="X6" pin="3"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="17" name="/Tuner/Ctrl">
+      <node ref="X6" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="18" name="/Switch2/Ctrl">
+      <node ref="Q8" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="X6" pin="9"/>
+    </net>
+    <net code="19" name="/Switch1/Ctrl">
+      <node ref="R33" pin="1"/>
+      <node ref="X6" pin="8"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="20" name="/Looper5/Ctrl">
+      <node ref="X6" pin="7"/>
+      <node ref="R26" pin="1"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="21" name="/Looper4/Ctrl">
+      <node ref="Q4" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="X6" pin="6"/>
+    </net>
+    <net code="22" name="/Looper3/Ctrl">
+      <node ref="R16" pin="1"/>
+      <node ref="X6" pin="5"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="23" name="/Looper2/Ctrl">
+      <node ref="Q2" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="X6" pin="4"/>
+    </net>
+    <net code="24" name="/Switch1/B">
+      <node ref="X8" pin="2"/>
+      <node ref="REL8" pin="4"/>
+      <node ref="REL7" pin="4"/>
+    </net>
+    <net code="25" name="/Switch2/A">
+      <node ref="REL8" pin="1"/>
+      <node ref="X8" pin="4"/>
+    </net>
+    <net code="26" name="/Switch1/A">
+      <node ref="REL7" pin="1"/>
+      <node ref="X8" pin="6"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="R16" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="X4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="X6" pin="10"/>
+      <node ref="X7" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="X2" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="X3" pin="2"/>
+    </net>
+    <net code="28" name="+12V">
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(X6-Pad1)">
+      <node ref="X6" pin="1"/>
+    </net>
+    <net code="31" name="/pwr_in">
+      <node ref="X4" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="32" name="+9V">
+      <node ref="C21" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R32" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="X7" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="33" name="Net-(C5-Pad1)">
+      <node ref="X2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="34" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="X3" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="35" name="/Tuner/bypass">
+      <node ref="R3" pin="1"/>
+      <node ref="REL1" pin="7"/>
+      <node ref="REL1" pin="2"/>
+    </net>
+    <net code="36" name="/Tuner/relais_n">
+      <node ref="REL1" pin="8"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="37" name="/Tuner/relais_p">
+      <node ref="D2" pin="1"/>
+      <node ref="REL1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="38" name="/Looper2/Single True Bypass/FX_Send">
+      <node ref="R7" pin="1"/>
+      <node ref="REL2" pin="4"/>
+      <node ref="X9" pin="3"/>
+    </net>
+    <net code="39" name="/Looper2/Single True Bypass/FX_Return">
+      <node ref="X9" pin="6"/>
+      <node ref="R9" pin="1"/>
+      <node ref="REL2" pin="5"/>
+    </net>
+    <net code="40" name="Net-(X9-Pad9)">
+      <node ref="X9" pin="9"/>
+    </net>
+    <net code="41" name="Net-(X10-Pad9)">
+      <node ref="X10" pin="9"/>
+    </net>
+    <net code="42" name="/Looper3/Single True Bypass/FX_Return">
+      <node ref="R14" pin="1"/>
+      <node ref="X10" pin="6"/>
+      <node ref="REL3" pin="5"/>
+    </net>
+    <net code="43" name="/Looper3/Single True Bypass/FX_Send">
+      <node ref="R12" pin="1"/>
+      <node ref="REL3" pin="4"/>
+      <node ref="X10" pin="3"/>
+    </net>
+    <net code="44" name="/Looper4/Single True Bypass/FX_Return">
+      <node ref="REL4" pin="5"/>
+      <node ref="R19" pin="1"/>
+      <node ref="X11" pin="6"/>
+    </net>
+    <net code="45" name="/Looper4/Single True Bypass/FX_Send">
+      <node ref="X11" pin="3"/>
+      <node ref="REL4" pin="4"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="46" name="Net-(X11-Pad9)">
+      <node ref="X11" pin="9"/>
+    </net>
+    <net code="47" name="/Looper5/Single True Bypass/FX_Send">
+      <node ref="R22" pin="1"/>
+      <node ref="REL5" pin="4"/>
+      <node ref="X12" pin="3"/>
+    </net>
+    <net code="48" name="Net-(X12-Pad9)">
+      <node ref="X12" pin="9"/>
+    </net>
+    <net code="49" name="/Looper5/Single True Bypass/FX_Return">
+      <node ref="X12" pin="6"/>
+      <node ref="R24" pin="1"/>
+      <node ref="REL5" pin="5"/>
+    </net>
+    <net code="50" name="/Looper1/Single True Bypass/FX_Send">
+      <node ref="R27" pin="1"/>
+      <node ref="X13" pin="3"/>
+      <node ref="REL6" pin="4"/>
+    </net>
+    <net code="51" name="/Looper1/Single True Bypass/FX_Return">
+      <node ref="R29" pin="1"/>
+      <node ref="REL6" pin="5"/>
+      <node ref="X13" pin="6"/>
+    </net>
+    <net code="52" name="Net-(X13-Pad9)">
+      <node ref="X13" pin="9"/>
+    </net>
+    <net code="53" name="/Switch1/relais_p">
+      <node ref="R32" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="REL7" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="54" name="/Switch1/relais_n">
+      <node ref="REL7" pin="3"/>
+      <node ref="D8" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="55" name="/Switch2/relais_p">
+      <node ref="REL8" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="56" name="/Switch2/relais_n">
+      <node ref="REL8" pin="3"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="57" name="/Looper2/Single True Bypass/bypass">
+      <node ref="REL2" pin="2"/>
+      <node ref="REL2" pin="7"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="58" name="/Looper2/Single True Bypass/relais_n">
+      <node ref="D3" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="REL2" pin="8"/>
+    </net>
+    <net code="59" name="/Looper2/Single True Bypass/relais_p">
+      <node ref="R10" pin="1"/>
+      <node ref="REL2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="60" name="/Looper3/Single True Bypass/relais_n">
+      <node ref="Q3" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="REL3" pin="8"/>
+    </net>
+    <net code="61" name="/Looper3/Single True Bypass/relais_p">
+      <node ref="REL3" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="62" name="/Looper3/Single True Bypass/bypass">
+      <node ref="R13" pin="1"/>
+      <node ref="REL3" pin="2"/>
+      <node ref="REL3" pin="7"/>
+    </net>
+    <net code="63" name="/Looper4/Single True Bypass/relais_p">
+      <node ref="REL4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="64" name="/Looper4/Single True Bypass/relais_n">
+      <node ref="Q4" pin="3"/>
+      <node ref="D5" pin="2"/>
+      <node ref="REL4" pin="8"/>
+    </net>
+    <net code="65" name="/Looper4/Single True Bypass/bypass">
+      <node ref="REL4" pin="7"/>
+      <node ref="R18" pin="1"/>
+      <node ref="REL4" pin="2"/>
+    </net>
+    <net code="66" name="/Looper5/Single True Bypass/relais_n">
+      <node ref="D6" pin="2"/>
+      <node ref="REL5" pin="8"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="67" name="/Looper5/Single True Bypass/relais_p">
+      <node ref="REL5" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="68" name="/Looper5/Single True Bypass/bypass">
+      <node ref="REL5" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="REL5" pin="7"/>
+    </net>
+    <net code="69" name="/Looper1/Single True Bypass/relais_p">
+      <node ref="REL6" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="70" name="/Looper1/Single True Bypass/bypass">
+      <node ref="R28" pin="1"/>
+      <node ref="REL6" pin="2"/>
+      <node ref="REL6" pin="7"/>
+    </net>
+    <net code="71" name="/Looper1/Single True Bypass/relais_n">
+      <node ref="D7" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="REL6" pin="8"/>
+    </net>
+  </nets>
+</export>
